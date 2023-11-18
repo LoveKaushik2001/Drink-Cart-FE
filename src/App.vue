@@ -1,8 +1,11 @@
+<script setup lang="ts">
+import DrinkCart from "./components/DrinkCart.vue";
+</script>
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav> -->
   <router-view />
 </template>
 
